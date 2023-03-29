@@ -1,0 +1,65 @@
+2023-03-29 14:02:04,784 DEBUG app MainThread teste
+2023-03-29 14:18:40,497 WARNING app MainThread ocorrencia
+2023-03-29 14:44:51,238 INFO app MainThread ação
+2023-03-29 14:47:34,928 ERROR app MainThread invalido
+2023-03-29 14:52:47,048 ERROR app MainThread invalido
+2023-03-29 14:52:59,435 CRITICAL app MainThread stop
+2023-03-29 15:10:23,422 CRITICAL app MainThread stop
+2023-03-29 15:15:35,219 CRITICAL app MainThread stop
+2023-03-29 15:18:08,023 INFO app MainThread outro registro
+2023-03-29 15:26:06,055 INFO app MainThread outro registro
+2023-03-29 15:26:22,298 ERROR app MainThread Exception on / [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/app/app.py", line 14, in index
+    log_level = int(request.form['optLogLevel'])
+ValueError: invalid literal for int() with base 10: 'LOG LEVEL'
+2023-03-29 15:26:25,683 ERROR app MainThread Exception on / [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/app/app.py", line 14, in index
+    log_level = int(request.form['optLogLevel'])
+ValueError: invalid literal for int() with base 10: 'LOG LEVEL'
+2023-03-29 15:26:28,157 ERROR app MainThread Exception on / [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/app/app.py", line 14, in index
+    log_level = int(request.form['optLogLevel'])
+ValueError: invalid literal for int() with base 10: 'LOG LEVEL'
+2023-03-29 15:26:33,372 DEBUG app MainThread ocorrencia
+2023-03-29 16:05:24,021 WARNING app MainThread stop
+2023-03-29 16:05:29,865 ERROR app MainThread teste
+2023-03-29 16:07:15,119 ERROR app MainThread teste
+2023-03-29 16:07:25,899 ERROR app MainThread outro registro
+2023-03-29 18:27:01,956 CRITICAL app MainThread teste
+2023-03-29 18:34:12,493 CRITICAL app MainThread teste
+2023-03-29 18:45:07,477 CRITICAL app MainThread teste
+2023-03-29 18:46:00,007 INFO app MainThread outro registro
+2023-03-29 18:46:07,748 CRITICAL app MainThread ocorrencia
+2023-03-29 18:57:20,228 WARNING app MainThread cilada Bino
+2023-03-29 19:03:41,770 WARNING app MainThread cilada Bino
+2023-03-29 19:03:46,170 DEBUG app MainThread teste
+2023-03-29 19:13:49,358 WARNING app MainThread outro registro
+2023-03-29 19:22:57,495 ERROR app MainThread Ai Ferrou mesmo
+2023-03-29 19:28:57,396 ERROR app MainThread ação
