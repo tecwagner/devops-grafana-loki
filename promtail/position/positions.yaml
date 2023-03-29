@@ -1,0 +1,8 @@
+positions:
+  /logs/gerador-log/record.log: "3905"
+  /logs/syslogs/alternatives.log: "14214"
+  /logs/syslogs/dpkg.log: "273015"
+  /logs/syslogs/fontconfig.log: "5204"
+  /logs/syslogs/lastlog: "0"
+  /logs/syslogs/ubuntu-advantage.log: "0"
+  /logs/syslogs/upgrade-policy-changed.log: "26"
